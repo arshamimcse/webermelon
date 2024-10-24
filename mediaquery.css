@@ -1,0 +1,216 @@
+@media screen and (max-width: 1170px) {
+    .projects-details {
+        padding: 50px 50px;
+    }
+    #our-services_section .wrapper {
+        padding: 120px 100px 80px 100px;
+    }
+    #cta_section {
+        padding: 70px 80px;
+    }
+    footer {
+        padding-left: 80px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    header{
+        padding: 0 80px;
+    }
+    #projects-and-partners_section .wrapper {
+        padding: 50px 80px;
+    }
+    #case-studies_section .wrapper {
+        padding: 60px 80px;
+    }
+    #testimonial_section .wrapper {
+        padding: 80px;
+    }
+    #cta_section .wrapper {
+        padding: 40px;
+    }
+    .cta-content h2 {
+        font-size: 32px;
+        line-height: 36px;
+    }
+    .cta-content p {
+        font-size: 12px;
+    }
+    footer .wrapper {
+        grid-template-rows: 50px auto 400px 50px;
+    }
+    .footer-content {
+        grid-column: 1 / -1;
+    }
+    .footer-main-style {
+        grid-column: 1 / -1;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .case-studies .title {
+        font-size: 40px;
+    }
+    .case-studies .description {
+        font-size: 14px;
+    }
+    #case-studies_section .card-item .card-title {
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width: 850px) {
+    .projects-details {
+        padding: 50px 0;
+    }
+    .our-services-and-reviews {
+        gap: 170px;
+    }
+}
+
+
+@media screen and (max-width: 760px) {
+    .hero-heading {
+        font-size: 10px;
+    }
+    .hero-subheading {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .hero-cta-buttons .btn-portfolio,
+    .hero-cta-buttons .btn-start {
+        font-size: 14px;
+        padding: 8px 16px;
+        line-height: 15px;
+    }
+    .projects-details h2 {
+        font-size: 36px;
+    }
+    .projects-details h2 span {
+        font-size: 36px;
+    }
+    .projects-details p{
+        font-size: 12px;
+    }
+    .auth-details p {
+        font-size: 32px;
+    }
+    .auth h4 {
+        font-size: 16px;
+    }
+    .auth p {
+        font-size: 12px;
+    }
+    #our-services_section .wrapper {
+        padding: 80px 40px 60px 40px;
+    }
+    #case-studies_section .card-items {
+        gap: 20px;
+    }
+    .card-btn {
+        gap: 10px;
+    }
+    #case-studies_section .card-item .card-title {
+        font-size: 16px;
+    }
+    #case-studies_section .wrapper {
+        padding: 60px 50px;
+    }
+    #testimonial_section .wrapper {
+        padding: 80px 40px;
+    }
+    .testimonial-details h2 {
+        font-size: 36px;
+    }
+    #cta_section .wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .cta-content::before,
+    .cta-content::after,
+    .cta-image::before,
+    .cta-image::after {
+        width: 0;
+        height: 0;
+    }
+    nav ul {
+        position: absolute;
+        max-height: 0;
+        top: 65px;
+        left: 0;
+        right: 0;
+        background-color: rgb(205, 231, 231);
+        flex-direction: column;
+        align-items: center;
+        /* gap: 20px; */
+        overflow: hidden;
+        z-index: 11;
+        transition: max-height .5s;
+    }
+    nav ul li {
+        margin: 10px 0 ;
+        padding: 5px 20px;
+        transition: all .5s;
+    }
+    nav ul li:hover {
+        background-color: var(--dark-primary-color);
+        color: var(--light-primary-color);
+        border-radius: 50px;
+    }
+    .menu-icon {
+        display: block;
+        padding-right: 2px;
+    }
+    nav button {
+        display: none;
+    }
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+    header{
+        padding: 0 40px;
+    }
+    .hero-images {
+        flex-direction: column;
+    }
+    #projects-and-partners_section .wrapper {
+        padding: 50px 40px;
+    }
+    #our-services_section .wrapper {
+        grid-template-columns: 1fr;
+    }
+    .our-services-cards::before,
+    .our-services-cards::after,
+    .our-services-card-1::before,
+    .our-services-card-1::after,
+    .our-services-card-2::before,
+    .our-services-card-2::after {
+        height: 0;
+    }
+    #case-studies_section .card-items-row {
+        grid-template-columns: 1fr;
+    }
+    .footer-content .title-and-email .email {
+        font-size: 30px;
+    }
+}
+
+
+
+@media screen and (max-width: 450px) {
+    header{
+        padding: 0 ;
+    }
+    footer {
+        padding-left: 20px;
+    }
+    #cta_section {
+        padding: 50px 30px;
+    }
+    .cta-content h2 {
+        font-size: 24px;
+    }
+}
